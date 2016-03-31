@@ -1,0 +1,234 @@
+Script iniciado (jue 31 mar 2016 10:59:22 CEST
+)(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> exitsudo apt-get install git[3Pemacs blog/admin.py &python manage.py migrate blog[8Pemacs blog/admin.py &sudo apt-get install gitexit[K[Kcd
+(myvenv) 7]2;grecio@fm205:~]1;fm2058grecio@fm205:~> cd PROGRAMACION/djangogirls/
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> source mysite/bi[K[K
+.directory   __init__.py  __pycache__/ settings.py  urls.py      wsgi.py      
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> source mysite/[K[K[K[K[Kvenv/bin/activate
+(myvenv) (myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> exit
+exit
+
+Script terminado (jue 31 mar 2016 11:00:16 CEST
+)Script iniciado (jue 31 mar 2016 11:00:28 CEST
+)(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> exitsource myvenv/bin/activatecd PROGRAMACION/djangogirls/[Kexitsudo apt-get install git[3Pemacs blog/admin.py &python manage.py migrate blog[7@akemigrations[C[C[C[C[C[7Pigrate[C[C[C[C[C[8Pemacs blog/admin.py &sudo apt-get install gitexit[K[2Pcd PROGRAMACION/djangogirls/[2Psource myvenv/bin/activateexit[K[Kpython -m pip install -U --force-reinstall pip
+Collecting pip
+  Downloading pip-8.1.1-py2.py3-none-any.whl (1.2MB)
+[?25l[K    0% |▎                               | 10kB 30.2MB/s eta 0:00:01[K    1% |▌                               | 20kB 23.5MB/s eta 0:00:01[K    2% |▉                               | 30kB 26.5MB/s eta 0:00:01[K    3% |█                               | 40kB 998kB/s eta 0:00:02[K    4% |█▍                              | 51kB 1.2MB/s eta 0:00:01[K    5% |█▋                              | 61kB 1.4MB/s eta 0:00:01[K    5% |██                              | 71kB 1.6MB/s eta 0:00:01[K    6% |██▏                             | 81kB 986kB/s eta 0:00:02[K    7% |██▌                             | 92kB 1.1MB/s eta 0:00:01[K    8% |██▊                             | 102kB 1.2MB/s eta 0:00:01[K    9% |███                             | 112kB 1.2MB/s eta 0:00:01[K    10% |███▎                            | 122kB 1.2MB/s eta 0:00:01[K    11% |███▋                            | 133kB 1.2MB/s eta 0:00:01[K    11% |███▉                            | 143kB 2.2MB/s eta 0:00:01[K    12% |████                            | 153kB 2.2MB/s eta 0:00:01[K    13% |████▍                           | 163kB 2.2MB/s eta 0:00:01[K    14% |████▋                           | 174kB 2.2MB/s eta 0:00:01[K    15% |█████                           | 184kB 2.4MB/s eta 0:00:01[K    16% |█████▏                          | 194kB 2.4MB/s eta 0:00:01[K    17% |█████▌                          | 204kB 2.4MB/s eta 0:00:01[K    17% |█████▊                          | 215kB 2.4MB/s eta 0:00:01[K    18% |██████                          | 225kB 2.4MB/s eta 0:00:01[K    19% |██████▎                         | 235kB 2.4MB/s eta 0:00:01[K    20% |██████▋                         | 245kB 2.4MB/s eta 0:00:01[K    21% |██████▉                         | 256kB 2.4MB/s eta 0:00:01[K    22% |███████▏                        | 266kB 2.4MB/s eta 0:00:01[K    23% |███████▍                        | 276kB 2.4MB/s eta 0:00:01[K    23% |███████▋                        | 286kB 12.2MB/s eta 0:00:01[K    24% |████████                        | 296kB 10.8MB/s eta 0:00:01[K    25% |████████▏                       | 307kB 11.8MB/s eta 0:00:01[K    26% |████████▌                       | 317kB 12.1MB/s eta 0:00:01[K    27% |████████▊                       | 327kB 11.0MB/s eta 0:00:01[K    28% |█████████                       | 337kB 12.1MB/s eta 0:00:01[K    29% |█████████▎                      | 348kB 12.1MB/s eta 0:00:01[K    29% |█████████▋                      | 358kB 12.1MB/s eta 0:00:01[K    30% |█████████▉                      | 368kB 12.2MB/s eta 0:00:01[K    31% |██████████▏                     | 378kB 2.9MB/s eta 0:00:01[K    32% |██████████▍                     | 389kB 3.0MB/s eta 0:00:01[K    33% |██████████▊                     | 399kB 3.0MB/s eta 0:00:01[K    34% |███████████                     | 409kB 2.9MB/s eta 0:00:01[K    35% |███████████▏                    | 419kB 3.0MB/s eta 0:00:01[K    35% |███████████▌                    | 430kB 3.0MB/s eta 0:00:01[K    36% |███████████▊                    | 440kB 3.0MB/s eta 0:00:01[K    37% |████████████                    | 450kB 3.0MB/s eta 0:00:01[K    38% |████████████▎                   | 460kB 2.9MB/s eta 0:00:01[K    39% |████████████▋                   | 471kB 3.0MB/s eta 0:00:01[K    40% |████████████▉                   | 481kB 12.2MB/s eta 0:00:01[K    41% |█████████████▏                  | 491kB 10.8MB/s eta 0:00:01[K    41% |█████████████▍                  | 501kB 11.7MB/s eta 0:00:01[K    42% |█████████████▊                  | 512kB 12.1MB/s eta 0:00:01[K    43% |██████████████                  | 522kB 12.1MB/s eta 0:00:01[K    44% |██████████████▎                 | 532kB 12.0MB/s eta 0:00:01[K    45% |██████████████▌                 | 542kB 10.7MB/s eta 0:00:01[K    46% |██████████████▊                 | 552kB 11.7MB/s eta 0:00:01[K    47% |███████████████                 | 563kB 12.0MB/s eta 0:00:01[K    47% |███████████████▎                | 573kB 10.6MB/s eta 0:00:01[K    48% |███████████████▋                | 583kB 11.7MB/s eta 0:00:01[K    49% |███████████████▉                | 593kB 12.2MB/s eta 0:00:01[K    50% |████████████████▏               | 604kB 12.2MB/s eta 0:00:01[K    51% |████████████████▍               | 614kB 3.4MB/s eta 0:00:01[K    52% |████████████████▊               | 624kB 3.3MB/s eta 0:00:01[K    53% |█████████████████               | 634kB 3.4MB/s eta 0:00:01[K    53% |█████████████████▎              | 645kB 3.4MB/s eta 0:00:01[K    54% |█████████████████▌              | 655kB 3.3MB/s eta 0:00:01[K    55% |█████████████████▉              | 665kB 3.4MB/s eta 0:00:01[K    56% |██████████████████              | 675kB 3.4MB/s eta 0:00:01[K    57% |██████████████████▎             | 686kB 3.4MB/s eta 0:00:01[K    58% |██████████████████▋             | 696kB 3.4MB/s eta 0:00:01[K    58% |██████████████████▉             | 706kB 3.3MB/s eta 0:00:01[K    59% |███████████████████▏            | 716kB 12.0MB/s eta 0:00:01[K    60% |███████████████████▍            | 727kB 12.2MB/s eta 0:00:01[K    61% |███████████████████▊            | 737kB 10.8MB/s eta 0:00:01[K    62% |████████████████████            | 747kB 12.1MB/s eta 0:00:01[K    63% |████████████████████▎           | 757kB 12.3MB/s eta 0:00:01[K    64% |████████████████████▌           | 768kB 12.3MB/s eta 0:00:01[K    64% |████████████████████▉           | 778kB 12.3MB/s eta 0:00:01[K    65% |█████████████████████           | 788kB 10.9MB/s eta 0:00:01[K    66% |█████████████████████▍          | 798kB 11.9MB/s eta 0:00:01[K    67% |█████████████████████▋          | 808kB 12.2MB/s eta 0:00:01[K    68% |█████████████████████▉          | 819kB 10.8MB/s eta 0:00:01[K    69% |██████████████████████▏         | 829kB 12.0MB/s eta 0:00:01[K    70% |██████████████████████▍         | 839kB 12.2MB/s eta 0:00:01[K    70% |██████████████████████▊         | 849kB 12.2MB/s eta 0:00:01[K    71% |███████████████████████         | 860kB 11.5MB/s eta 0:00:01[K    72% |███████████████████████▎        | 870kB 10.7MB/s eta 0:00:01[K    73% |███████████████████████▌        | 880kB 11.7MB/s eta 0:00:01[K    74% |███████████████████████▉        | 890kB 12.3MB/s eta 0:00:01[K    75% |████████████████████████        | 901kB 10.5MB/s eta 0:00:01[K    76% |████████████████████████▍       | 911kB 11.6MB/s eta 0:00:01[K    76% |████████████████████████▋       | 921kB 12.1MB/s eta 0:00:01[K    77% |█████████████████████████       | 931kB 12.1MB/s eta 0:00:01[K    78% |█████████████████████████▏      | 942kB 12.3MB/s eta 0:00:01[K    79% |█████████████████████████▌      | 952kB 10.7MB/s eta 0:00:01[K    80% |█████████████████████████▊      | 962kB 12.7MB/s eta 0:00:01[K    81% |██████████████████████████      | 972kB 12.2MB/s eta 0:00:01[K    82% |██████████████████████████▎     | 983kB 10.8MB/s eta 0:00:01[K    82% |██████████████████████████▌     | 993kB 11.6MB/s eta 0:00:01[K    83% |██████████████████████████▉     | 1.0MB 12.3MB/s eta 0:00:01[K    84% |███████████████████████████     | 1.0MB 12.3MB/s eta 0:00:01[K    85% |███████████████████████████▍    | 1.0MB 12.1MB/s eta 0:00:01[K    86% |███████████████████████████▋    | 1.0MB 10.6MB/s eta 0:00:01[K    87% |████████████████████████████    | 1.0MB 11.7MB/s eta 0:00:01[K    88% |████████████████████████████▏   | 1.1MB 12.1MB/s eta 0:00:01[K    88% |████████████████████████████▌   | 1.1MB 10.6MB/s eta 0:00:01[K    89% |████████████████████████████▊   | 1.1MB 11.7MB/s eta 0:00:01[K    90% |█████████████████████████████   | 1.1MB 9.6MB/s eta 0:00:01[K    91% |█████████████████████████████▎  | 1.1MB 9.6MB/s eta 0:00:01[K    92% |█████████████████████████████▌  | 1.1MB 9.8MB/s eta 0:00:01[K    93% |█████████████████████████████▉  | 1.1MB 8.9MB/s eta 0:00:01[K    94% |██████████████████████████████  | 1.1MB 9.7MB/s eta 0:00:01[K    94% |██████████████████████████████▍ | 1.1MB 9.8MB/s eta 0:00:01[K    95% |██████████████████████████████▋ | 1.1MB 8.8MB/s eta 0:00:01[K    96% |███████████████████████████████ | 1.2MB 9.5MB/s eta 0:00:01[K    97% |███████████████████████████████▏| 1.2MB 9.8MB/s eta 0:00:01[K    98% |███████████████████████████████▌| 1.2MB 9.8MB/s eta 0:00:01[K    99% |███████████████████████████████▊| 1.2MB 12.3MB/s eta 0:00:01[K    100% |████████████████████████████████| 1.2MB 827kB/s 
+[?25hInstalling collected packages: pip
+  Found existing installation: pip 8.1.1
+    Uninstalling pip-8.1.1:
+      Successfully uninstalled pip-8.1.1
+Successfully installed pip-8.1.1
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> django-admin startproject mysite .
+[31;1mCommandError: /home/grecio/PROGRAMACION/djangogirls/manage.py already exists, overlaying a project or app into an existing directory won't replace conflicting files
+[0m(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more mysite/
+.directory   __init__.py  __pycache__/ settings.py  urls.py      wsgi.py      
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more mysite/settings.py 
+"""
+Django settings for mysite project.
+
+Generated by 'django-admin startproject' using Django 1.8.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/1.8/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/1.8/ref/settings/
+"""
+
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'zh+cq$zi7ubb1qt5nykwfyl^%jpif=1*oi89^%)u9k^*e!xqd7'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = []
+
+# Application definition
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'blog',
+)
+
+MIDDLEWARE_CLASSES = (
+[7m--Más--(40%)[27m    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+)
+
+ROOT_URLCONF = 'mysite.urls'
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+WSGI_APPLICATION = 'mysite.wsgi.application'
+
+# Database
+# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+# Internationalization
+[7m--Más--(87%)[27m# https://docs.djangoproject.com/en/1.8/topics/i18n/
+
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'Europe/Madrid'
+
+USE_I18N = True
+
+USE_L10N = True
+
+USE_TZ = True
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.8/howto/static-files/
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> python manage.py migrate
+[36;1mOperations to perform:[0m
+[1m  Synchronize unmigrated apps: [0mmessages, staticfiles
+[1m  Apply all migrations: [0mauth, blog, sessions, contenttypes, admin
+[36;1mSynchronizing apps without migrations:[0m
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+[36;1mRunning migrations:[0m
+  No migrations to apply.
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> ls
+[0m[01;34mayuda[0m  [01;34mblog[0m  [01;34mcomandos[0m  [00mdb.sqlite3[0m  [00mdjg.script[0m  [00;32mmanage.py[0m  [01;34mmysite[0m  [01;34mmyvenv[0m  [01;34mprogramas[0m
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 31, 2016 - 11:04:49
+Django version 1.8, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[31/Mar/2016 11:05:35]"GET / HTTP/1.1" 200 1767
+[0m[33m[31/Mar/2016 11:05:35]"GET /favicon.ico HTTP/1.1" 404 1936
+[0m
+^C(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> 
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> em[K[Kgedir [K[K[K[K[K[Kemacs blog/
+admin.py     .directory   __init__.py  migrations/  models.py    __pycache__/ tests.py     views.py
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/admin.py &
+[1] 8533
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/admin.py 
+from django.contrib import admin
+from .models import Post
+
+# Register your models here.
+admin.site.register(Post)
+
+[1]+  Hecho                   emacs blog/admin.py
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 31, 2016 - 11:33:51
+Django version 1.8, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[31/Mar/2016 11:34:16]"GET /admin/ HTTP/1.1" 200 4274
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/css/base.css HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/img/default-bg.gif HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/img/icon_changelink.gif HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/img/icon_addlink.gif HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:34:16]"GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[0m[m[31/Mar/2016 11:35:28]"GET /admin/blog/post/add/ HTTP/1.1" 200 7557
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/core.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/related-widget-wrapper.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[0m[m[31/Mar/2016 11:35:28]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/img/icon_calendar.gif HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:35:28]"GET /static/admin/img/icon_clock.gif HTTP/1.1" 304 0
+[0m[32m[31/Mar/2016 11:36:07]"POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[0m[m[31/Mar/2016 11:36:07]"GET /admin/blog/post/add/ HTTP/1.1" 200 7731
+[0m[m[31/Mar/2016 11:36:07]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[36m[31/Mar/2016 11:36:07]"GET /static/admin/img/icon_success.gif HTTP/1.1" 304 0
+[0m[32m[31/Mar/2016 11:36:36]"POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[0m[m[31/Mar/2016 11:36:36]"GET /admin/blog/post/add/ HTTP/1.1" 200 7731
+[0m[m[31/Mar/2016 11:36:36]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:36:40]"GET /admin/auth/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4424
+[0m[m[31/Mar/2016 11:36:40]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[36m[31/Mar/2016 11:37:32]"GET /static/admin/img/default-bg-reverse.gif HTTP/1.1" 304 0
+[0m[32m[31/Mar/2016 11:37:32]"POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[0m[m[31/Mar/2016 11:37:32]"GET /admin/blog/post/ HTTP/1.1" 200 5098
+[0m[m[31/Mar/2016 11:37:32]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[36m[31/Mar/2016 11:37:32]"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[0m[36m[31/Mar/2016 11:37:33]"GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[0m[m[31/Mar/2016 11:38:29]"GET /admin/blog/ HTTP/1.1" 200 2411
+[0m[m[31/Mar/2016 11:38:31]"GET /admin/ HTTP/1.1" 200 5087
+[0m[m[31/Mar/2016 11:38:35]"GET /admin/auth/user/add/ HTTP/1.1" 200 5448
+[0m[m[31/Mar/2016 11:38:35]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:39:01]"POST /admin/auth/user/add/ HTTP/1.1" 200 5676
+[0m[m[31/Mar/2016 11:39:01]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[36m[31/Mar/2016 11:39:01]"GET /static/admin/img/icon_error.gif HTTP/1.1" 304 0
+[0m[m[31/Mar/2016 11:39:09]"POST /admin/auth/user/add/ HTTP/1.1" 200 5676
+[0m[m[31/Mar/2016 11:39:09]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:39:12]"POST /admin/auth/user/add/ HTTP/1.1" 200 5676
+[0m[m[31/Mar/2016 11:39:12]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:39:15]"POST /admin/auth/user/add/ HTTP/1.1" 200 5676
+[0m[m[31/Mar/2016 11:39:15]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[32m[31/Mar/2016 11:39:38]"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[0m[m[31/Mar/2016 11:39:38]"GET /admin/auth/user/2/ HTTP/1.1" 200 14193
+[0m[m[31/Mar/2016 11:39:38]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:39:39]"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4222
+[0m[m[31/Mar/2016 11:39:39]"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 10127
+[0m[36m[31/Mar/2016 11:39:39]"GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 304 0
+[0m[m[31/Mar/2016 11:39:39]"GET /static/admin/img/icon-unknown.gif HTTP/1.1" 200 130
+[0m[m[31/Mar/2016 11:39:39]"GET /static/admin/img/selector-icons.gif HTTP/1.1" 200 2771
+[0m[m[31/Mar/2016 11:39:39]"GET /static/admin/img/selector-search.gif HTTP/1.1" 200 552
+[0m[32m[31/Mar/2016 11:40:35]"POST /admin/auth/user/2/ HTTP/1.1" 302 0
+[0m[m[31/Mar/2016 11:40:35]"GET /admin/auth/user/ HTTP/1.1" 200 7172
+[0m[m[31/Mar/2016 11:40:35]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
+[0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
+[0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon_searchbox.png HTTP/1.1" 200 368
+[0m[m[31/Mar/2016 11:40:3
