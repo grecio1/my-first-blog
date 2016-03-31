@@ -231,4 +231,42 @@ Quit the server with CONTROL-C.
 [0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
 [0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
 [0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/icon_searchbox.png HTTP/1.1" 200 368
-[0m[m[31/Mar/2016 11:40:3
+[0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/changelist-bg.gif HTTP/1.1" 200 50
+[0m[m[31/Mar/2016 11:40:35]"GET /static/admin/img/sorting-icons.gif HTTP/1.1" 200 369
+[0m[m[31/Mar/2016 11:40:36]"GET /static/admin/img/nav-bg-selected.gif HTTP/1.1" 200 265
+[0m[m[31/Mar/2016 11:40:52]"GET / HTTP/1.1" 200 1767
+[0m[m[31/Mar/2016 11:41:15]"GET /admin/ HTTP/1.1" 200 5640
+[0m[m[31/Mar/2016 11:41:29]"GET /admin/blog/post/ HTTP/1.1" 200 4956
+[0m[m[31/Mar/2016 11:41:29]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:41:34]"GET /admin/blog/post/4/ HTTP/1.1" 200 8146
+[0m[m[31/Mar/2016 11:41:34]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:42:39]"GET / HTTP/1.1" 200 1767
+[0m[33m[31/Mar/2016 11:42:47]"GET /home HTTP/1.1" 404 1915
+[0m[33m[31/Mar/2016 11:43:05]"GET /anonymous HTTP/1.1" 404 1930
+[0m[m[31/Mar/2016 11:43:27]"GET / HTTP/1.1" 200 1767
+[0m[32m[31/Mar/2016 11:43:52]"GET /admin/blog HTTP/1.1" 301 0
+[0m[m[31/Mar/2016 11:43:52]"GET /admin/blog/ HTTP/1.1" 200 2411
+[0m[m[31/Mar/2016 11:43:56]"GET /admin/blog/post/ HTTP/1.1" 200 4956
+[0m[m[31/Mar/2016 11:43:56]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:44:12]"GET /admin/blog/post/1/ HTTP/1.1" 200 8182
+[0m[m[31/Mar/2016 11:44:12]"GET /admin/jsi18n/ HTTP/1.1" 200 2344
+[0m[m[31/Mar/2016 11:54:09]"GET /admin/logout/ HTTP/1.1" 200 1589
+[0m^C(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> 
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more .gitignore 
+*.pyc
+__pycache__
+myvenv
+db.sqlite3
+.DS_Store
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git status
+On branch master
+nothing to commit, working directory clean
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git commit -m "My Django Girls app, first commit"
+On branch master
+nothing to commit, working directory clean
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git add -A .
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git commit -m "My Django Girls app, first commit"
+On branch master
+nothing to commit, working directory clean
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git remote add origin https://github.com/<your-github-username>/ my-first-blog.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my[1P-first-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-[1Pfirst-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-f[1Pirst-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-fi[1Prst-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-fir[1Pst-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-firs[1Pt-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first[1P-blog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-[1Pblog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-b[1Plog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-bl[1Pog.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blo[1Pg.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog[1P.git[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog.[1Pgit[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog.g[1Pit[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog.gi[1Pt[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog.git[K[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/my-first-blog.git [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/my-first-blog.git
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
