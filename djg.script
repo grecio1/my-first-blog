@@ -334,4 +334,307 @@ bash: !disable: event not found
 exit
 
 Script terminado (jue 31 mar 2016 13:11:18 CEST
-)
+)Script iniciado (jue 14 abr 2016 12:38:58 CEST
+)7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> lpq[Ksource myv env/bin/activate
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> p ython manage.py shell
+Python 3.4.1 (default, May 23 2014, 17:48:28) [GCC] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> Post.objects.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Post' is not defined
+>>> from blog.models import Post
+>>> Post.objects.all()
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>]
+>>>  Post.objects.create(author=me, title='Sample t itle', text='Test')
+  File "<console>", line 1
+    Post.objects.create(author=me, title='Sample title', text='Test')
+    ^
+IndentationError: unexpected indent
+>>>  Post.objects.create(author=me, title='Sample tiitle', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPost.objects.create(author=me, title='Sample tit[1P[A[C[C[C
+
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'me' is not defined
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+[<User: grecio>, <User: anonymous>]
+>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[K>>> me = User.objects.get(username='ola')[1P')[1P')[1P')g')r')e')c')i')o')
+>>> [K>>> [K>>> [K>>> [K>>> Post.objects.create(author=me, title='Sample title', text='Test' )
+<Post: Sample title>
+>>> Post.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()
+[<User: grecio>, <User: anonymous>]
+>>> User.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()
+[<User: grecio>, <User: anonymous>]
+>>> User.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()[C[C[C[Cfrom django.contrib.auth.models import User[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C Post.objects.create(author=me, title='Sample title', text='Test')[A[C[CPost.objects.all()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>, <Post: Sample title>]
+>>> Post.objects.all()[1P.objects.all()[C[C[C[C[C[C[C[1P.objects.all()[C[C[C[C[C[C[1P.objects.all()[C[C[C[C[C[1P.objects.all()[C[C[C[CU.objects.all()[C[C[C[C[Cs.objects.all()[C[C[C[C[C[Ce.objects.all()[C[C[C[C[C[C[Cr.objects.all()[C[C[C[C[C[C[C[C
+[<User: grecio>, <User: anonymous>]
+>>> User.objects.all()[1P.objects.all()[C[C[C[C[C[C[C[1P.objects.all()[C[C[C[C[C[C[1P.objects.all()[C[C[C[C[C[1P.objects.all()[C[C[C[CT.objects.all()[C[C[C[C[Ce.objects.all()[C[C[C[C[C[Cx.objects.all()[C[C[C[C[C[C[Ct.objects.all()[C[C[C[C[C[C[C[C
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Text' is not defined
+>>> [K>>> Text.objects.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Text' is not defined
+>>> Text.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test')[C[C[C[CUser.objects.all()[K[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test')[C[C[C[C[25Pme = User.objects.get(username='grecio')[C[C[C[C[22PUser.objects.all()
+[<User: grecio>, <User: anonymous>]
+>>> User.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test')[C[C[C[C[25Pme = User.objects.get(username='grecio')[C[C[C[C[22PUser.objects.all()[C[C[C[Cfrom django.contrib.auth.models import User[C[C[C[C[25PUser.objects.all()[C[C[C[Cme = User.objects.get(username='grecio')[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test')[C[C[C[CUser.objects.all()[K[C[C[C[CPost.objects.all()[C[C[C[C[C[C[C[C[C[C[C[C[1P.all()[1P.all()[1P.all()[1P.all()[1P.all()[1P.all()[1P.all()T.all()e.all()x.all()t.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: type object 'Post' has no attribute 'Text'
+>>> Post.Text.all()[1Pext.all()text.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: type object 'Post' has no attribute 'text'
+>>> Post.text.all()Text.all()[C[C[C[CUser.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>, <Post: Sample title>]
+>>> [K>>> Post.objects.all()[C[C[C[C[C[C[C[C[C[3Ptext.all()Text.all()[C[C[C[CUser.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='Test') [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@H[1@o[1@r[1@a[1@r[1@o[1P[1@i[1@o[1@ [1@d[1@e ', text='Test') [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc', text='Test'))[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs', text='Test')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[1P')[1P')[1P')[1P')M'),') ')J') ')d')e') ')1')6'):')3')0')-')1')8'):')0')0') ')e')n') ')a')u')l')a') ')A')1')4')
+<Post: Horario de clases>
+>>> Post.objects.create(author=me, title='Horario de clases', text='MM, J de 16:30-18:00 en aula A14')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M,[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J d[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 1[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:3[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30-[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30-1[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30-18[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30-18:[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C', text='M, J de 16:30-18:0[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT', text='M, J de 16:30-18:[C[1@0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce', text='M, J de 16:30-18[1@:[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm', text='M, J de 16:30-1[1@8[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca', text='M, J de 16:30-[1@1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1', text='M, J de 16:30[1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C')[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C') [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P') ')q')u')b')i')t')s'),') ')e') [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs'))[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf')e')r')a') ')d')e') ')b')l')o')c')h')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+<Post: Tema1>
+>>> Post.objects.create(author=me, title='Tema1', text=' qubits, esfeera de bloch'),') ')m')u')l')t')i')q')u')b')i')t')s'),') ')p')u')e')r')t')a')s'),') ')c')l')a')s')i')c')a')s') ')y') ')c')u')a')n')t')i')c')a')s'),') ')r')o')t')a')c')i')o')n') [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce'))[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs')
+<Post: Tema1>
+>>> quit(()[K[K[K[K[K[K[KPost.objects.filter(author=me)
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>, <Post: Sample title>, <Post: Horario de clases>, <Post: Tema1>, <Post: Tema1>]
+>>> Pst.objects.filter(title__contains='title')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Pst' is not defined
+>>> Pst.objects.filter(title__contains='title')ost.objects.filter(title__contains='title')[C[C[C[C[C[C
+[<Post: Sample title>]
+>>> Post.objects.filter(title__contains='title')[1P')[1P')[1P')[1P')[1P')e')m')a')
+[<Post: Tema1>, <Post: Tema1>]
+>>> Post.objects.filter(title__contains='ema')[C[1P__contains='ema')[1P__contains='ema')[1P__contains='ema')[1P__contains='ema')e__contains='ema')x__contains='ema')t__contains='ema')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P')[1P')[1P')A')1')4')
+[<Post: Horario de clases>]
+>>> Post.objects.filter(text__contains='A14')[1P(text__contains='A14')[1P(text__contains='A14')[1P(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl(text__contains='A14')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[C[K[Ktalleallxalltall.all
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'Manager' object has no attribute 'text'
+>>> from django.utils import timezone
+>>> Post.objects.filter(published_date__lte=timezone.now())
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post3>]
+>>> post = Post.objects.get(title="Sample title")
+>>> post.publish()
+>>> post.publish()[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post3>, <Post: Sample title>]
+>>>  Post.objects.order_by('created_date')
+  File "<console>", line 1
+    Post.objects.order_by('created_date')
+    ^
+IndentationError: unexpected indent
+>>>  Post.objects.order_by('created_date')[1PPost.objects.order_by('created_date')[C[C[C[C
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>, <Post: Sample title>, <Post: Horario de clases>, <Post: Tema1>, <Post: Tema1>]
+>>> Post.objects.order_by('created_date')-created_date')
+[<Post: Tema1>, <Post: Tema1>, <Post: Horario de clases>, <Post: Sample title>, <Post: post3>, <Post: post2>, <Post: post1>, <Post: Las mujeres pueden, por supuesto>]
+>>> Post.objects.filter(published_date__lte=timezone.now()).order_by ('published_date')
+[<Post: post3>, <Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: Sample title>]
+>>> [K>>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+[<Post: post3>, <Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: Sample title>]
+>>> exit()
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [K(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py  
+from django.shortcuts import render
+
+# Create your views here.
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.pyy &
+[1] 11802
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.pyy &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py [K
+from django.shortcuts import render
+from .models import Post
+
+# Create your views here.
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
+[1]+  Hecho                   emacs blog/views.py 2> /dev/null
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py  
+from django.shortcuts import render
+from .models import Post
+
+# Create your views here.
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py  [A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.py &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py [K[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.py &
+[1] 11838
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [K(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more emacs blog/views.py &[2Pmore blog/views.py 
+from django.shortcuts import render
+from .models import Post
+
+# Create your views here.
+def post_list(request):
+    posts=Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blog/post_list.html', {})
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py 
+from django.shortcuts import render
+from django.utils import timezone
+from .models import Post
+
+# Create your views here.
+def post_list(request):
+    posts=Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blog/post_list.html', {})
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py 
+from django.shortcuts import render
+from django.utils import timezone
+from .models import Post
+
+# Create your views here.
+def post_list(request):
+    posts=Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blog/post_list.html', {'posts': posts})
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs [K(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templatees/blog/post_list.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C blog/templates[1P/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C blog/templates/[1Pblog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C blog/templates/b[1Plog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C blog/templates/bl[1Pog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C blog/templates/blo[1Pg/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> m blog/templates/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [Co blog/templates/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[Cr blog/templates/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[Ce blog/templates/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C
+
+<html>
+    <head>
+        <title> 4mujeres's blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">4mujeres's blog</a></h1>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Mi primer articulo </a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia q
+uam venenatis vestibulum. Donec id elit non mi porta gravida at eget
+ metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condi
+mentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Mi articulo segundo</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia q
+uam venenatis vestibulum. Donec id elit non mi porta gravida at eget
+ metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condi
+mentum nibh, ut f.</p>
+        </div>
+    </body>
+</html>
+[1]+  Hecho                   emacs blog/views.py 2> /dev/null
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templatess/blog/post_list.html &[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C blog/templates/[1P[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C blog/templates/b[1P[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C blog/templates/bl[1P[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C blog/templates/blo[1P[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> e blog/templates/bl[1@o[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [Cm blog/templates/b[1@l[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[Ca blog/templates/[1@b[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[Cc blog/templates[1@/[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[Cs blog/template[1@s[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C
+
+[1] 11972
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templatees/blog/post_list.html &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templates[3P/blog/post_list.html
+<html>
+    <head>
+        <title> 4mujeres's blog</title>
+    </head>
+    <body>
+        {{posts}}
+    </body>
+</html>
+[1]+  Hecho                   emacs blog/templates/blog/post_list.html 2> /dev/null
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templatess/blog/post_list.html
+<html>
+    <head>
+        <title> 4mujeres's blog</title>
+    </head>
+    <body>
+        {{posts}}
+    </body>
+</html>
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templatess/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templates/blog/post_list.html &
+[1] 12002
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templatees/blog/post_list.html &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs blog/templatees/blog/post_list.html &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templates[3P/blog/post_list.html
+<html>
+    <head>
+        <title> 4mujeres's blog</title>
+    </head>
+    <body>
+      <div>
+	<h1><a href="/">Django Girls Blog</a></h1>
+      </div>
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaks }}</p>
+    </div>
+{% endfor %}
+    </body>
+</html>
+[1]+  Hecho                   emacs blog/templates/blog/post_list.html 2> /dev/null
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templatess/blog/post_list.html
+<html>
+    <head>
+        <title> 4mujeres's blog</title>
+    </head>
+    <body>
+      <div>
+	<h1><a href="/">Django Girls Blog</a></h1>
+      </div>
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaks }}</p>
+    </div>
+{% endfor %}
+    </body>
+</html>
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templatess/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templates/blog/post_list.html &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templates[3P/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/templates/blog/post_list.html &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/templates[3P/blog/post_list.html[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[C[C[C[C[C[Cviews.py [K[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.py &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py [K[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> emacs blog/views.py &[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> more blog/views.py [K[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> python manage.py shell[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> source myvenv/bin/activate[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> python manage.py sh[4Pell
+Python 3.4.1 (default, May 23 2014, 17:48:28) [GCC] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> exit()[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[C[C[C[C[C.publish()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[17P Post.objects.order_by('created_date')[C[C[C[C[1PPost.objects.order_by('created_date')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Post' is not defined
+>>> Post.objects.order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[22Pfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.allfilter(text__contains='A14')itle__contains='ema')title')[C[C[C[C[C[1Pst.objects.filter(title__contains='title')[C[C[C[C[C[13Post.objects.filter(author=me)create(author=me, title='Tema1', text=' qubits, esfeera de bloch, multiqubits, puertas, clasicas y cuanticas, rotaciones'')[A[C[C[C[C[C[C[C[C[C[C')[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHorario de clases', text='M, J de 16:30-18:00 en aula A14')[Aall()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Post' is not defined
+>>> Post.objects.all()order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[22Pfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.allfilter(text__contains='A14')itle__contains='ema')title')[C[C[C[C[C[1Pst.objects.filter(title__contains='title')[C[C[C[C[C[13Post.objects.filter(author=me)create(author=me, title='Tema1', text=' qubits, esfeera de bloch, multiqubits, puertas, clasicas y cuanticas, rotaciones'')[A[C[C[C[C[C[C[C[C[C[C')[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHorario de clases', text='M, J de 16:30-18:00 en aula A14')[Aall()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptext.all()Text.all()[C[C[C[CUser.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()[C[C[C[Cfrom django.contrib.auth.models import User[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[21Pfrom django.contrib.auth.models import User
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[KPost
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+ImportError: cannot import name 'Post'
+>>> from django.contrib.auth.models import Post[C[C[C[C[25PPost.objects.all()order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[22Pfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.allfilter(text__contains='A14')itle__contains='ema')title')[C[C[C[C[C[1Pst.objects.filter(title__contains='title')[C[C[C[C[C[13Post.objects.filter(author=me)create(author=me, title='Tema1', text=' qubits, esfeera de bloch, multiqubits, puertas, clasicas y cuanticas, rotaciones'')[A[C[C[C[C[C[C[C[C[C[C')[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHorario de clases', text='M, J de 16:30-18:00 en aula A14')[Aall()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptext.all()Text.all()[C[C[C[CUser.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()[C[C[C[Cfrom django.contrib.auth.models import User
+>>> from django.contrib.auth.models import UserPost[C[C[C[C[25PPost.objects.all()order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[22Pfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.all[C[C[C[Cfrom django.utils import timezone
+>>> from django.utils import timezone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccontrib.auth.models import UserPost[C[C[C[C[25PPost.objects.all()order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[C[22Pfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.all[C[C[C[Cfrom django.utils import timezone[C[C[C[C[12PPost.objects.text.allfilter(text__contains='A14')itle__contains='ema')title')[C[C[C[C[C[1Pst.objects.filter(title__contains='title')[C[C[C[C[C[13Post.objects.filter(author=me)create(author=me, title='Tema1', text=' qubits, esfeera de bloch, multiqubits, puertas, clasicas y cuanticas, rotaciones'')[A[C[C[C[C[C[C[C[C[C[C')[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHorario de clases', text='M, J de 16:30-18:00 en aula A14')[Aall()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptext.all()Text.all()[C[C[C[CUser.objects.all()[C[C[C[CText.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.all()[C[C[C[CUser.objects.all()[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[24Pme = User.objects.get(username='grecio')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PUser.objects.all()[C[C[C[Cfrom django.contrib.auth.models import User[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C[21Pfrom django.contrib.auth.models import User
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPost.objects.create(author=me, title='Sample title', text='Test'))[A[C[C[C Post.objects.create(author=me, title='Sample title', text='Test')[A[C[CPost.objects.all()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfrom blog.models import Post
+>>> from blog.models import Post[C[C[C[C[C[C[C[C[Cdjango.utils import timezone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccontrib.auth.models import UserPost[C[C[C[C[25PPost.objects.all()order_by('created_date')
+[<Post: Las mujeres pueden, por supuesto>, <Post: post1>, <Post: post2>, <Post: post3>, <Post: Sample title>, <Post: Horario de clases>, <Post: Tema1>, <Post: Tema1>]
+>>> Post.objects.order_by('created_date')[C[C[C[C[9Pfrom blog.models import Post[C[C[C[C[C[C[C[C[Cdjango.utils import timezone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccontrib.auth.models import UserPost[C[C[C[C[25PPost.objects.all()order_by('created_date')[C[C[C[Cexit()[K[C[C[C[CPost.objects.filter(published_date__lte=timezone.now()).order_by(('published_date')[A[26Porder_by('-created_date')
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreated_date')[C[C[C[C Post.objects.order_by('created_date')[C[C[C[CPost.objects.filter(published_date__lte=timezone.now())[C[C[C[Cpost.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[C[C[C[C[C[C[C[C.publish()[K[C[C[C[C[C[C[C[C = Post.objects.get(title="Sample title")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")T")e")m")a")1")
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/grecio/PROGRAMACION/djangogirls/myvenv/lib64/python3.4/site-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/grecio/PROGRAMACION/djangogirls/myvenv/lib64/python3.4/site-packages/django/db/models/query.py", line 338, in get
+    (self.model._meta.object_name, num)
+blog.models.MultipleObjectsReturned: get() returned more than one Post -- it returned 2!
+>>> po
