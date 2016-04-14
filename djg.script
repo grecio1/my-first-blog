@@ -637,4 +637,189 @@ Traceback (most recent call last):
   File "/home/grecio/PROGRAMACION/djangogirls/myvenv/lib64/python3.4/site-packages/django/db/models/query.py", line 338, in get
     (self.model._meta.object_name, num)
 blog.models.MultipleObjectsReturned: get() returned more than one Post -- it returned 2!
->>> po
+>>> post = Post.objects.get(title="Tema1")[C[C[C[C[1PPost.objects.order_by('created_date')[C[C[C[C[9Pfrom blog.models import Post[C[C[C[CPost.objects.order_by('created_date')[C[C[C[Cpost = Post.objects.get(title="Tema1")[C[C[C[C[Kpost = Post.objects.get(title="Tema1")[C[C[C[C[1PPost.objects.order_by('created_date')[C[C[C[C[9Pfrom blog.models import Post[C[C[C[CPost.objects.order_by('created_date')[C[C[C[Cpost = Post.objects.get(title="Tema1")[C[C[C[C[Kpost = Post.objects.get(title="Tema1")[1PPost.objects.get(title="Tema1")[C[C[C[C[C[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C[C[1PPost.objects.get(title="Tema1")[C[C[C[C
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/grecio/PROGRAMACION/djangogirls/myvenv/lib64/python3.4/site-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/grecio/PROGRAMACION/djangogirls/myvenv/lib64/python3.4/site-packages/django/db/models/query.py", line 338, in get
+    (self.model._meta.object_name, num)
+blog.models.MultipleObjectsReturned: get() returned more than one Post -- it returned 2!
+>>> exit()
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   blog/templates/blog/post_list.html[m
+	[31mmodified:   blog/views.py[m
+	[31mmodified:   djg.script[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git add -A .
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git commit -m "Mod ified templates to display posts from database."
+[master f3b942e] Modified templates to display posts from database.
+ 3 files changed, 325 insertions(+), 24 deletions(-)
+ rewrite blog/templates/blog/post_list.html (89%)
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git commit -m "Modiified templates to display posts from database."[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[6Padd -A .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Pass a valid window to KWallet::Wallet::openWallet().
+The wallet service was disabled by the user
+User disabled the wallet system so returning 0 here.
+Pass a valid window to KWallet::Wallet::openWallet().
+The wallet service was disabled by the user
+User disabled the wallet system so returning 0 here.
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 4.90 KiB | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+To https://github.com/grecio1/my-first-blog.git
+   659c471..f3b942e  master -> master
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git pushstatuscommit -m "Modiified templates to display posts from database."[A(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> [C[C[C[C[6Padd -A .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   djg.script[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> git status[2Ppushstatus[Kman script
+[?1049h[?1h=SCRIPT(1)                  User Commands                 SCRIPT(1)[m
+[m
+[m
+[m
+[1mNAME[0m[m
+       script - make typescript of terminal session[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mscript [22m[options] [[4mfile[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mscript  [22mmakes  a typescript of everything displayed on your[m
+       terminal.  It is useful for students who  need  a  hardcopy[m
+       record of an interactive session as proof of an assignment,[m
+       as the typescript  file  can  be  printed  out  later  with[m
+       [1mlpr[22m(1).[m
+[m
+       If the argument [4mfile[24m is given, [1mscript [22msaves the dialogue in[m
+       this [4mfile[24m.  If no filename is given, the dialogue is  saved[m
+       in the file [1mtypescript[22m.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[22m, [1m--append[0m[m
+              Append  the output to [4mfile[24m or to [1mtypescript[22m, retain-[m
+              ing the prior contents.[m
+[m
+       [1m-c[22m, [1m--command [4m[22mcommand[0m[m
+              Run the [4mcommand[24m rather than  an  interactive  shell.[m
+              This  makes it easy for a script to capture the out-[m
+              put of a program that behaves differently  when  its[m
+              stdout is not a tty.[m
+[m
+       [1m-e[22m, [1m--return[0m[m
+              Return the exit code of the child process.  Uses the[m
+[7m Manual page script(1) line 1 (press h for help or q to quit)[27m[K[K              same format as bash termination on  signal  termina-[m
+              tion exit code is 128+n.[m
+[m
+       [1m-f[22m, [1m--flush[0m[m
+              Flush  output  after  each  write.  This is nice for[m
+              telecooperation: one person does `mkfifo foo; script[m
+              -f foo', and another can supervise real-time what is[m
+              being done using `cat foo'.[m
+[m
+       [1m--force[0m[m
+              Allow the default output destination, i.e. the type-[m
+              script  file,  to  be  a hard or symbolic link.  The[m
+              command will follow a symbolic link.[m
+[m
+       [1m-q[22m, [1m--quiet[0m[m
+              Be quiet (do not write start and  done  messages  to[m
+              either standard output or the typescript file).[m
+[m
+       [1m-t[22m, [1m--timing[22m[=[4mfile[24m][m
+              Output  timing  data  to  standard error, or to [4mfile[0m[m
+              when given.  This data contains  two  fields,  sepa-[m
+              rated  by  a  space.   The first field indicates how[m
+              much time elapsed since the  previous  output.   The[m
+              second field indicates how many characters were out-[m
+              put this time.  This  information  can  be  used  to[m
+              replay  typescripts with realistic typing and output[m
+              delays.[m
+[m
+       [1m-V[22m, [1m--version[0m[m
+              Display version information and exit.[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+              Display help text and exit.[m
+[m
+[7m Manual page script(1) line 35 (press h for help or q to quit)[27m[K[K[1mNOTES[0m[m
+       The script ends when the forked shell  exits  (a  [4mcontrol-D[0m[m
+       for the Bourne shell ([1msh[22m(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-d[0m[m
+       (if [4mignoreeof[24m is not set) for the C-shell, [1mcsh[22m(1)).[m
+[m
+       Certain interactive commands, such as [1mvi[22m(1), create garbage[m
+       in  the  typescript  file.  [1mscript [22mworks best with commands[m
+       that do not manipulate the screen, the results are meant to[m
+       emulate a hardcopy terminal.[m
+[m
+       It  is  not  recommended  to  run [1mscript [22min non-interactive[m
+       shells. The inner shell of [1mscript  [22mis  always  interactive,[m
+       and  this  could  lead  to  unexpected  results. If you use[m
+       [1mscript [22min the shell initialization file, you have to  avoid[m
+       entering an infinite loop. Use e. g. profile file, which is[m
+       read by login shells only:[m
+[m
+              if test -t 0 ; then[m
+                  script[m
+                  exit[m
+              fi[m
+[m
+       You should also avoid use of script in command pipes, as[m
+       [1mscript [22mcan read more input than you would expect.[m
+[m
+[1mENVIRONMENT[0m[m
+       The following environment variable is utilized by [1mscript[22m:[m
+[m
+       [1mSHELL  [22mIf the variable [1mSHELL [22mexists, the shell forked by[m
+              [1mscript [22mwill be that shell.  If [1mSHELL [22mis not set, the[m
+              Bourne shell is assumed.  (Most shells set this[m
+              variable automatically).[m
+[m
+[1mSEE ALSO[0m[m
+[7m Manual page script(1) line 69 (press h for help or q to quit)[27m[K[K[?1l>[?1049l(myvenv) 7]2;grecio@fm205:...MACION/djangogirls]1;fm2058grecio@fm205:~/PROGRAMACION/djangogirls> exit
+exit
+
+Script terminado (jue 14 abr 2016 13:46:11 CEST
+)
